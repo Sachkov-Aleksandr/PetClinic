@@ -10,7 +10,7 @@ jobs:
       runs-on: ubunty-latest
       
       steps:
-      - name: View Hello World
+      - name: View Hello World!
         run: echo "Hello World!"
     
  
