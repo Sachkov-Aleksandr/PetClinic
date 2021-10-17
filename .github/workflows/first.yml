@@ -1,6 +1,6 @@
-name: My first workflow
+name: My_first_workflow
 
-on: 
+on:
   push:
     branches: 
       - master
@@ -12,5 +12,3 @@ jobs:
       steps:
       - name: View Hello World!
         run: echo "Hello World!"
-    
- 
