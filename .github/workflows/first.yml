@@ -7,7 +7,7 @@ on:
     
 jobs:
    hello_world:
-      runs-on: ubunty-latest
+      runs-on: ubuntu-latest
       
       steps:
       - name: View Hello World!
