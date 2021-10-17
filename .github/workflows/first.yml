@@ -3,7 +3,7 @@ name: My_first_workflow
 on:
   push:
     branches: 
-      - master
+      - main
     
 jobs:
    hello_world:
