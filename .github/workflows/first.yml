@@ -10,7 +10,7 @@ jobs:
       runs-on: ubuntu-latest
       
       steps:
-      - name: Clone Git repo
+      - name: Clone Git repo.
         uses: action/checkout@v1
         
       - name: View files
