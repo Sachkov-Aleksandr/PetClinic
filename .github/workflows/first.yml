@@ -11,7 +11,7 @@ jobs:
       
       steps:
       - name: Clone Git repo
-        uses: action/checkout@v1
+        uses: actions/checkout@v1
         
       - name: View files
         run: ls -la
