@@ -10,5 +10,11 @@ jobs:
       runs-on: ubuntu-latest
       
       steps:
-      - name: View Hello World!
-        run: echo "Hello World!"
+      - name: Clone Git repo
+        uses: action/checkout@v1
+        
+      - name: View files
+        run: ls -la
+        
+      - name: view dockerfile
+        run: cat Dockerfile
