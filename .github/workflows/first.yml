@@ -1,0 +1,16 @@
+name: My first workflow
+
+on: 
+  push:
+    branches: 
+      - master
+    
+jobs:
+   hello_world:
+      runs-on: ubunty-latest
+      
+      steps:
+      - name: View Hello World
+        run: echo "Hello World!"
+    
+ 
